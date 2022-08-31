@@ -1,7 +1,7 @@
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
-  --primari-background-color: #f5f5f5;
+  --primari-background-color: #ffffff;
   --accent-color: #2196f3;
 }
 
@@ -18,7 +18,7 @@ body {
   line-height: 1.2;
   color: #000000;
   letter-spacing: 0.03em;
-  
+
   text-decoration: none;
 }
 .logo-footer {
@@ -29,7 +29,9 @@ body {
   color: #ffffff;
   letter-spacing: 0.03em;
   text-decoration: none;
-  
+}
+.list {
+  list-style: none;
 }
 
 .web {
@@ -41,8 +43,6 @@ body {
   font-size: 14px;
   line-height: 1.15;
   color: var(--primary-text-color);
-  list-style: none;
-  
 }
 
 .link {
@@ -50,7 +50,6 @@ body {
   text-decoration: none;
 }
 .site-contact {
-  list-style: none;
   text-decoration: none;
 }
 .site-nav .link:hover,
@@ -65,7 +64,6 @@ body {
   background-color: #2f303a;
 }
 .section-hero-title {
-  
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -74,49 +72,44 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primari-background-color);
-  
 }
 
 .btn {
-font-family: 'Roboto';
-font-weight: 700;
-font-size: 16px;
-line-height: 1.9;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-color: #FFFFFF;
-background-color: var(--accent-color);
-cursor: pointer;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
 
+.btn-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #212121;
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
 
 }
- .btn-portfolio-list{
-  list-style:none; 
- } 
-.btn-portfolio{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.6;   
-color: #212121;
-background-color: #F5F4FA;;
-cursor: pointer;
-
- }
-
- .btn-portfolio:hover,
-.btn-portfolio:focus{
-    color: #FFFFFF;
-    background-color:var(--accent-color);
-  }
-
-.qualitys,
-.work-list,
-.team-list,
-.footer-contact-list,
-.projects {
- list-style: none;
+.visually-hidden{
+  position:absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
+
 .quality {
   font-style: normal;
   font-weight: 700;
@@ -124,7 +117,6 @@ cursor: pointer;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--primary-text-color);
-  
 }
 .quality-discription {
   font-size: 14px;
@@ -155,17 +147,14 @@ cursor: pointer;
   background-color: #2f303a;
 }
 .footer-contact-map {
-  
-/* перекриває adress */
+  /* перекриває adress */
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   text-decoration: none;
   color: #ffffff;
-  
 }
 .footer-contact-mailtel {
-  
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
