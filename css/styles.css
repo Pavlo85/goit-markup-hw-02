@@ -11,6 +11,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 .logo {
   font-family: 'Raleway';
   font-weight: 700;
@@ -100,10 +104,9 @@ body {
 .btn-portfolio:focus {
   color: #ffffff;
   background-color: var(--accent-color);
-
 }
-.visually-hidden{
-  position:absolute;
+.visually-hidden {
+  position: absolute;
   clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
